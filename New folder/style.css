@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(200,200,200);
+    background-color: rgb(0,0%,78%);
+    text-align: center;
+}
+
+a {
+    color: #ee3e80;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.container {
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px;
+    text-align: center;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.first {
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding: 60px;
+    text-align: center;
+   
+}
+
+.second {
+    background-color: #ee3e80;
+    color: whitesmoke; 
+    font-size: 50px;
+    padding: 60px; 
+    text-align: center;
+}
+
+.third {
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 80px;
+    text-align: center;
+    
+}
+
+.plumContainer {
+    margin: 60px 0;
+    background-color: #ee3e80;
+    background-color: plum;
+    color: whitesmoke;
+    padding: 80px;
+    text-align: center;
+}
+
+.pictures {
+    margin-top: -60px;
+}
+
+#box {
+    width: 50px;
+    height: 50px;
+    background-color: plum;
+    position: absolute;
+    animation: move 4s linear infinite;}
+@keyframes move {
+        from {right: 0;}
+        to {down: 100%;}
+    }       
+
+#box2 {
+        width: 50px;
+        height: 50px;
+        background-color: plum;
+        position: absolute;
+        animation: move 4s linear infinite;}
+@keyframes move {
+        from {right: 0;}
+        to {down: 50%;}
+}
+    
+    
+
+
